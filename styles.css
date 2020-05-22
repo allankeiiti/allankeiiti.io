@@ -1,0 +1,46 @@
+.profile-pic {
+    border-radius: 50%;
+    height: 320px;
+    width: 320px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a.github-icon {
+    background: url(public/GitHub-Mark-32px.png);
+    height: 32px;
+    width: 32px;
+}
+
+a.github-icon:hover {
+    background: url(public/GitHub-Mark-Light-32px.png);
+    transition: 0.5s;
+}
+
+a.linkedin-icon {
+    margin-left: 10px;
+    background: url(public/Linkedin-32.png);
+    height: 32px;
+    width: 32px;
+}
+
+a.linkedin-icon:hover {
+    background: url(public/Linkedin-Light-32.png);
+    transition: 0.5s;
+}
+
+@media(max-width: 767px) {
+    a.linkedin-icon, a.github-icon {
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+}
+
+
+.project-image img {
+    border-color: #000;
+    height: 200px;
+    width: 200px;
+}
